@@ -1,0 +1,40 @@
+C:\Users\PLC Student\Desktop\AdvancedHMIBetaV399d\AdvancedHMIControls\bin\Debug\AdvancedHMIControls.dll
+C:\Users\PLC Student\Desktop\AdvancedHMIBetaV399d\AdvancedHMIControls\bin\Debug\AdvancedHMIControls.pdb
+C:\Users\PLC Student\Desktop\AdvancedHMIBetaV399d\AdvancedHMIControls\bin\Debug\AdvancedHMIControls.xml
+C:\Users\PLC Student\Desktop\AdvancedHMIBetaV399d\AdvancedHMIControls\bin\Debug\AdvancedHMIDrivers.dll
+C:\Users\PLC Student\Desktop\AdvancedHMIBetaV399d\AdvancedHMIControls\bin\Debug\MfgControl.AdvancedHMI.Controls.dll
+C:\Users\PLC Student\Desktop\AdvancedHMIBetaV399d\AdvancedHMIControls\bin\Debug\MfgControl.AdvancedHMI.Drivers.dll
+C:\Users\PLC Student\Desktop\AdvancedHMIBetaV399d\AdvancedHMIControls\bin\Debug\OpcNetApi.dll
+C:\Users\PLC Student\Desktop\AdvancedHMIBetaV399d\AdvancedHMIControls\bin\Debug\OpcNetApi.Com.dll
+C:\Users\PLC Student\Desktop\AdvancedHMIBetaV399d\AdvancedHMIControls\bin\Debug\OpcComRcw.dll
+C:\Users\PLC Student\Desktop\AdvancedHMIBetaV399d\AdvancedHMIControls\bin\Debug\AdvancedHMIDrivers.pdb
+C:\Users\PLC Student\Desktop\AdvancedHMIBetaV399d\AdvancedHMIControls\bin\Debug\AdvancedHMIDrivers.xml
+C:\Users\PLC Student\Desktop\AdvancedHMIBetaV399d\AdvancedHMIControls\bin\Debug\OpcNetApi.xml
+C:\Users\PLC Student\Desktop\AdvancedHMIBetaV399d\AdvancedHMIControls\bin\Debug\OpcNetApi.Com.xml
+C:\Users\PLC Student\Desktop\AdvancedHMIBetaV399d\AdvancedHMIControls\obj\Debug\AdvancedHMIControls.vbprojResolveAssemblyReference.cache
+C:\Users\PLC Student\Desktop\AdvancedHMIBetaV399d\AdvancedHMIControls\obj\Debug\AdvancedHMIControls.ThreeButtons.resources
+C:\Users\PLC Student\Desktop\AdvancedHMIBetaV399d\AdvancedHMIControls\obj\Debug\AdvancedHMIControls.Resources.resources
+C:\Users\PLC Student\Desktop\AdvancedHMIBetaV399d\AdvancedHMIControls\obj\Debug\AdvancedHMIControls.vbproj.GenerateResource.Cache
+C:\Users\PLC Student\Desktop\AdvancedHMIBetaV399d\AdvancedHMIControls\obj\Debug\AdvancedHMIControls.dll
+C:\Users\PLC Student\Desktop\AdvancedHMIBetaV399d\AdvancedHMIControls\obj\Debug\AdvancedHMIControls.xml
+C:\Users\PLC Student\Desktop\AdvancedHMIBetaV399d\AdvancedHMIControls\obj\Debug\AdvancedHMIControls.pdb
+F:\Documents\Cursos\PLC III - Process Visualization with HMI  SCADA\AdvancedHMI\AdvancedHMIControls\bin\Debug\AdvancedHMIControls.dll
+F:\Documents\Cursos\PLC III - Process Visualization with HMI  SCADA\AdvancedHMI\AdvancedHMIControls\bin\Debug\AdvancedHMIControls.pdb
+F:\Documents\Cursos\PLC III - Process Visualization with HMI  SCADA\AdvancedHMI\AdvancedHMIControls\bin\Debug\AdvancedHMIControls.xml
+F:\Documents\Cursos\PLC III - Process Visualization with HMI  SCADA\AdvancedHMI\AdvancedHMIControls\bin\Debug\AdvancedHMIDrivers.dll
+F:\Documents\Cursos\PLC III - Process Visualization with HMI  SCADA\AdvancedHMI\AdvancedHMIControls\bin\Debug\MfgControl.AdvancedHMI.Controls.dll
+F:\Documents\Cursos\PLC III - Process Visualization with HMI  SCADA\AdvancedHMI\AdvancedHMIControls\bin\Debug\MfgControl.AdvancedHMI.Drivers.dll
+F:\Documents\Cursos\PLC III - Process Visualization with HMI  SCADA\AdvancedHMI\AdvancedHMIControls\bin\Debug\OpcNetApi.dll
+F:\Documents\Cursos\PLC III - Process Visualization with HMI  SCADA\AdvancedHMI\AdvancedHMIControls\bin\Debug\OpcNetApi.Com.dll
+F:\Documents\Cursos\PLC III - Process Visualization with HMI  SCADA\AdvancedHMI\AdvancedHMIControls\bin\Debug\OpcComRcw.dll
+F:\Documents\Cursos\PLC III - Process Visualization with HMI  SCADA\AdvancedHMI\AdvancedHMIControls\bin\Debug\AdvancedHMIDrivers.pdb
+F:\Documents\Cursos\PLC III - Process Visualization with HMI  SCADA\AdvancedHMI\AdvancedHMIControls\bin\Debug\AdvancedHMIDrivers.xml
+F:\Documents\Cursos\PLC III - Process Visualization with HMI  SCADA\AdvancedHMI\AdvancedHMIControls\bin\Debug\OpcNetApi.xml
+F:\Documents\Cursos\PLC III - Process Visualization with HMI  SCADA\AdvancedHMI\AdvancedHMIControls\bin\Debug\OpcNetApi.Com.xml
+F:\Documents\Cursos\PLC III - Process Visualization with HMI  SCADA\AdvancedHMI\AdvancedHMIControls\obj\Debug\AdvancedHMIControls.vbprojResolveAssemblyReference.cache
+F:\Documents\Cursos\PLC III - Process Visualization with HMI  SCADA\AdvancedHMI\AdvancedHMIControls\obj\Debug\AdvancedHMIControls.ThreeButtons.resources
+F:\Documents\Cursos\PLC III - Process Visualization with HMI  SCADA\AdvancedHMI\AdvancedHMIControls\obj\Debug\AdvancedHMIControls.Resources.resources
+F:\Documents\Cursos\PLC III - Process Visualization with HMI  SCADA\AdvancedHMI\AdvancedHMIControls\obj\Debug\AdvancedHMIControls.vbproj.GenerateResource.Cache
+F:\Documents\Cursos\PLC III - Process Visualization with HMI  SCADA\AdvancedHMI\AdvancedHMIControls\obj\Debug\AdvancedHMIControls.dll
+F:\Documents\Cursos\PLC III - Process Visualization with HMI  SCADA\AdvancedHMI\AdvancedHMIControls\obj\Debug\AdvancedHMIControls.xml
+F:\Documents\Cursos\PLC III - Process Visualization with HMI  SCADA\AdvancedHMI\AdvancedHMIControls\obj\Debug\AdvancedHMIControls.pdb
