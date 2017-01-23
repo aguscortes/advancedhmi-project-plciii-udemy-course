@@ -124,48 +124,6 @@
     <value>39</value>
   </metadata>
   <assembly alias="MfgControl.AdvancedHMI.Controls" name="MfgControl.AdvancedHMI.Controls, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" />
-  <data name="MessageDisplayByBit7.Messages" type="MfgControl.AdvancedHMI.Controls.MessageByBit, MfgControl.AdvancedHMI.Controls">
-    <value>0,Off</value>
-  </data>
-  <data name="MessageDisplayByBit7.Messages1" type="MfgControl.AdvancedHMI.Controls.MessageByBit, MfgControl.AdvancedHMI.Controls">
-    <value>1,On</value>
-  </data>
-  <data name="MessageDisplayByBit6.Messages" type="MfgControl.AdvancedHMI.Controls.MessageByBit, MfgControl.AdvancedHMI.Controls">
-    <value>0,Off</value>
-  </data>
-  <data name="MessageDisplayByBit6.Messages1" type="MfgControl.AdvancedHMI.Controls.MessageByBit, MfgControl.AdvancedHMI.Controls">
-    <value>1,On</value>
-  </data>
-  <data name="MessageDisplayByBit5.Messages" type="MfgControl.AdvancedHMI.Controls.MessageByBit, MfgControl.AdvancedHMI.Controls">
-    <value>0,Off</value>
-  </data>
-  <data name="MessageDisplayByBit5.Messages1" type="MfgControl.AdvancedHMI.Controls.MessageByBit, MfgControl.AdvancedHMI.Controls">
-    <value>1,On</value>
-  </data>
-  <data name="MessageDisplayByBit4.Messages" type="MfgControl.AdvancedHMI.Controls.MessageByBit, MfgControl.AdvancedHMI.Controls">
-    <value>0,Off</value>
-  </data>
-  <data name="MessageDisplayByBit4.Messages1" type="MfgControl.AdvancedHMI.Controls.MessageByBit, MfgControl.AdvancedHMI.Controls">
-    <value>1,On</value>
-  </data>
-  <data name="MessageDisplayByBit3.Messages" type="MfgControl.AdvancedHMI.Controls.MessageByBit, MfgControl.AdvancedHMI.Controls">
-    <value>0,Off</value>
-  </data>
-  <data name="MessageDisplayByBit3.Messages1" type="MfgControl.AdvancedHMI.Controls.MessageByBit, MfgControl.AdvancedHMI.Controls">
-    <value>1,On</value>
-  </data>
-  <data name="MessageDisplayByBit2.Messages" type="MfgControl.AdvancedHMI.Controls.MessageByBit, MfgControl.AdvancedHMI.Controls">
-    <value>0,Off</value>
-  </data>
-  <data name="MessageDisplayByBit2.Messages1" type="MfgControl.AdvancedHMI.Controls.MessageByBit, MfgControl.AdvancedHMI.Controls">
-    <value>1,On</value>
-  </data>
-  <data name="MessageDisplayByBit1.Messages" type="MfgControl.AdvancedHMI.Controls.MessageByBit, MfgControl.AdvancedHMI.Controls">
-    <value>0,Off</value>
-  </data>
-  <data name="MessageDisplayByBit1.Messages1" type="MfgControl.AdvancedHMI.Controls.MessageByBit, MfgControl.AdvancedHMI.Controls">
-    <value>1,On</value>
-  </data>
   <data name="MessageDisplayByValue7.Messages" type="MfgControl.AdvancedHMI.Controls.MessageByValue, MfgControl.AdvancedHMI.Controls">
     <value>0,Off,-65536</value>
   </data>

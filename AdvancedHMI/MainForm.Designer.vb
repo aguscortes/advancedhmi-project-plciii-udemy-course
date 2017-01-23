@@ -29,17 +29,9 @@ Partial Class MainForm
         Me.MomentaryButton2 = New AdvancedHMIControls.MomentaryButton()
         Me.PilotLight1 = New AdvancedHMIControls.PilotLight()
         Me.Tank1 = New AdvancedHMIControls.Tank()
-        Me.BasicButton1 = New AdvancedHMIControls.BasicButton()
-        Me.BasicButton2 = New AdvancedHMIControls.BasicButton()
-        Me.BasicLabel1 = New AdvancedHMIControls.BasicLabel()
-        Me.BasicLabel2 = New AdvancedHMIControls.BasicLabel()
-        Me.BasicLabel3 = New AdvancedHMIControls.BasicLabel()
-        Me.BasicLabel4 = New AdvancedHMIControls.BasicLabel()
-        Me.GroupBox1 = New System.Windows.Forms.GroupBox()
         Me.BasicLabel7 = New AdvancedHMIControls.BasicLabel()
         Me.PilotLight2 = New AdvancedHMIControls.PilotLight()
         Me.PilotLight3 = New AdvancedHMIControls.PilotLight()
-        Me.PilotLight4 = New AdvancedHMIControls.PilotLight()
         Me.PilotLight5 = New AdvancedHMIControls.PilotLight()
         Me.BasicButton3 = New AdvancedHMIControls.BasicButton()
         Me.BasicButton4 = New AdvancedHMIControls.BasicButton()
@@ -80,13 +72,6 @@ Partial Class MainForm
         Me.MessageDisplayByValue5 = New AdvancedHMIControls.MessageDisplayByValue()
         Me.MessageDisplayByValue6 = New AdvancedHMIControls.MessageDisplayByValue()
         Me.MessageDisplayByValue7 = New AdvancedHMIControls.MessageDisplayByValue()
-        Me.MessageDisplayByBit1 = New AdvancedHMIControls.MessageDisplayByBit()
-        Me.MessageDisplayByBit2 = New AdvancedHMIControls.MessageDisplayByBit()
-        Me.MessageDisplayByBit3 = New AdvancedHMIControls.MessageDisplayByBit()
-        Me.MessageDisplayByBit4 = New AdvancedHMIControls.MessageDisplayByBit()
-        Me.MessageDisplayByBit5 = New AdvancedHMIControls.MessageDisplayByBit()
-        Me.MessageDisplayByBit6 = New AdvancedHMIControls.MessageDisplayByBit()
-        Me.MessageDisplayByBit7 = New AdvancedHMIControls.MessageDisplayByBit()
         Me.BasicButton26 = New AdvancedHMIControls.BasicButton()
         Me.BasicLabel5 = New AdvancedHMIControls.BasicLabel()
         Me.BasicLabel6 = New AdvancedHMIControls.BasicLabel()
@@ -94,7 +79,21 @@ Partial Class MainForm
         Me.BasicLabel16 = New AdvancedHMIControls.BasicLabel()
         Me.BasicLabel17 = New AdvancedHMIControls.BasicLabel()
         Me.BasicLabel18 = New AdvancedHMIControls.BasicLabel()
-        Me.GroupBox1.SuspendLayout()
+        Me.PilotLight4 = New AdvancedHMIControls.PilotLight()
+        Me.BasicLabel1 = New AdvancedHMIControls.BasicLabel()
+        Me.BasicLabel2 = New AdvancedHMIControls.BasicLabel()
+        Me.BasicLabel3 = New AdvancedHMIControls.BasicLabel()
+        Me.BasicLabel4 = New AdvancedHMIControls.BasicLabel()
+        Me.BasicLabel19 = New AdvancedHMIControls.BasicLabel()
+        Me.BasicLabel20 = New AdvancedHMIControls.BasicLabel()
+        Me.BasicLabel21 = New AdvancedHMIControls.BasicLabel()
+        Me.BasicLabel22 = New AdvancedHMIControls.BasicLabel()
+        Me.BasicLabel23 = New AdvancedHMIControls.BasicLabel()
+        Me.BasicLabel24 = New AdvancedHMIControls.BasicLabel()
+        Me.BasicLabel25 = New AdvancedHMIControls.BasicLabel()
+        Me.BasicLabel26 = New AdvancedHMIControls.BasicLabel()
+        Me.BasicLabel27 = New AdvancedHMIControls.BasicLabel()
+        Me.BasicLabel28 = New AdvancedHMIControls.BasicLabel()
         Me.SuspendLayout()
         '
         'DF1Com1
@@ -157,7 +156,7 @@ Partial Class MainForm
         Me.PilotLight1.PLCAddressVisible = ""
         Me.PilotLight1.Size = New System.Drawing.Size(75, 110)
         Me.PilotLight1.TabIndex = 48
-        Me.PilotLight1.Text = "Sys Run"
+        Me.PilotLight1.Text = "System Running"
         Me.PilotLight1.Value = False
         '
         'Tank1
@@ -184,206 +183,6 @@ Partial Class MainForm
         Me.Tank1.TextSuffix = Nothing
         Me.Tank1.Value = 0.0!
         Me.Tank1.ValueScaleFactor = New Decimal(New Integer() {1, 0, 0, 0})
-        '
-        'BasicButton1
-        '
-        Me.BasicButton1.BackColor = System.Drawing.SystemColors.Control
-        Me.BasicButton1.CommComponent = Me.DF1Com1
-        Me.BasicButton1.ForeColor = System.Drawing.Color.Black
-        Me.BasicButton1.Highlight = False
-        Me.BasicButton1.HighlightColor = System.Drawing.Color.Green
-        Me.BasicButton1.Location = New System.Drawing.Point(23, 66)
-        Me.BasicButton1.MaximumHoldTime = 3000
-        Me.BasicButton1.MinimumHoldTime = 500
-        Me.BasicButton1.Name = "BasicButton1"
-        Me.BasicButton1.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
-        Me.BasicButton1.PLCAddressClick = "B3:3/9"
-        Me.BasicButton1.SelectTextAlternate = False
-        Me.BasicButton1.Size = New System.Drawing.Size(63, 23)
-        Me.BasicButton1.TabIndex = 52
-        Me.BasicButton1.Text = "Reset"
-        Me.BasicButton1.TextAlternate = Nothing
-        Me.BasicButton1.UseVisualStyleBackColor = True
-        Me.BasicButton1.ValueToWrite = 0
-        '
-        'BasicButton2
-        '
-        Me.BasicButton2.BackColor = System.Drawing.SystemColors.Control
-        Me.BasicButton2.CommComponent = Me.DF1Com1
-        Me.BasicButton2.ForeColor = System.Drawing.Color.Black
-        Me.BasicButton2.Highlight = False
-        Me.BasicButton2.HighlightColor = System.Drawing.Color.Green
-        Me.BasicButton2.Location = New System.Drawing.Point(249, 66)
-        Me.BasicButton2.MaximumHoldTime = 3000
-        Me.BasicButton2.MinimumHoldTime = 500
-        Me.BasicButton2.Name = "BasicButton2"
-        Me.BasicButton2.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
-        Me.BasicButton2.PLCAddressClick = "B3:3/10"
-        Me.BasicButton2.SelectTextAlternate = False
-        Me.BasicButton2.Size = New System.Drawing.Size(75, 23)
-        Me.BasicButton2.TabIndex = 53
-        Me.BasicButton2.Text = "Silence"
-        Me.BasicButton2.TextAlternate = Nothing
-        Me.BasicButton2.UseVisualStyleBackColor = True
-        Me.BasicButton2.ValueToWrite = 0
-        '
-        'BasicLabel1
-        '
-        Me.BasicLabel1.AutoSize = True
-        Me.BasicLabel1.BackColor = System.Drawing.Color.Red
-        Me.BasicLabel1.BooleanDisplay = AdvancedHMIControls.BasicLabel.BooleanDisplayOption.TrueFalse
-        Me.BasicLabel1.CommComponent = Me.DF1Com1
-        Me.BasicLabel1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.BasicLabel1.ForeColor = System.Drawing.Color.White
-        Me.BasicLabel1.HighlightColor = System.Drawing.Color.Red
-        Me.BasicLabel1.HighlightKeyCharacter = "!"
-        Me.BasicLabel1.KeypadAlpahNumeric = False
-        Me.BasicLabel1.KeypadFont = New System.Drawing.Font("Arial", 10.0!)
-        Me.BasicLabel1.KeypadFontColor = System.Drawing.Color.WhiteSmoke
-        Me.BasicLabel1.KeypadMaxValue = 0.0R
-        Me.BasicLabel1.KeypadMinValue = 0.0R
-        Me.BasicLabel1.KeypadScaleFactor = 1.0R
-        Me.BasicLabel1.KeypadShowCurrentValue = False
-        Me.BasicLabel1.KeypadText = Nothing
-        Me.BasicLabel1.KeypadWidth = 300
-        Me.BasicLabel1.Location = New System.Drawing.Point(104, 30)
-        Me.BasicLabel1.Name = "BasicLabel1"
-        Me.BasicLabel1.NumericFormat = Nothing
-        Me.BasicLabel1.PLCAddressKeypad = ""
-        Me.BasicLabel1.PLCAddressVisible = "B3:4/9"
-        Me.BasicLabel1.PollRate = 0
-        Me.BasicLabel1.Size = New System.Drawing.Size(139, 20)
-        Me.BasicLabel1.TabIndex = 60
-        Me.BasicLabel1.Text = "Low  Flow Alarm"
-        Me.BasicLabel1.Value = "Low  Flow Alarm"
-        Me.BasicLabel1.ValueLeftPadCharacter = Global.Microsoft.VisualBasic.ChrW(0)
-        Me.BasicLabel1.ValueLeftPadLength = 0
-        Me.BasicLabel1.ValuePrefix = Nothing
-        Me.BasicLabel1.ValueScaleFactor = 1.0R
-        Me.BasicLabel1.ValueSuffix = Nothing
-        '
-        'BasicLabel2
-        '
-        Me.BasicLabel2.AutoSize = True
-        Me.BasicLabel2.BackColor = System.Drawing.Color.Red
-        Me.BasicLabel2.BooleanDisplay = AdvancedHMIControls.BasicLabel.BooleanDisplayOption.TrueFalse
-        Me.BasicLabel2.CommComponent = Me.DF1Com1
-        Me.BasicLabel2.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.BasicLabel2.ForeColor = System.Drawing.Color.White
-        Me.BasicLabel2.HighlightColor = System.Drawing.Color.Red
-        Me.BasicLabel2.HighlightKeyCharacter = "!"
-        Me.BasicLabel2.KeypadAlpahNumeric = False
-        Me.BasicLabel2.KeypadFont = New System.Drawing.Font("Arial", 10.0!)
-        Me.BasicLabel2.KeypadFontColor = System.Drawing.Color.WhiteSmoke
-        Me.BasicLabel2.KeypadMaxValue = 0.0R
-        Me.BasicLabel2.KeypadMinValue = 0.0R
-        Me.BasicLabel2.KeypadScaleFactor = 1.0R
-        Me.BasicLabel2.KeypadShowCurrentValue = False
-        Me.BasicLabel2.KeypadText = Nothing
-        Me.BasicLabel2.KeypadWidth = 300
-        Me.BasicLabel2.Location = New System.Drawing.Point(92, 30)
-        Me.BasicLabel2.Name = "BasicLabel2"
-        Me.BasicLabel2.NumericFormat = Nothing
-        Me.BasicLabel2.PLCAddressKeypad = ""
-        Me.BasicLabel2.PLCAddressVisible = "B3:4/7"
-        Me.BasicLabel2.PollRate = 0
-        Me.BasicLabel2.Size = New System.Drawing.Size(173, 20)
-        Me.BasicLabel2.TabIndex = 61
-        Me.BasicLabel2.Text = "High Pressure Alarm"
-        Me.BasicLabel2.Value = "High Pressure Alarm"
-        Me.BasicLabel2.ValueLeftPadCharacter = Global.Microsoft.VisualBasic.ChrW(0)
-        Me.BasicLabel2.ValueLeftPadLength = 0
-        Me.BasicLabel2.ValuePrefix = Nothing
-        Me.BasicLabel2.ValueScaleFactor = 1.0R
-        Me.BasicLabel2.ValueSuffix = Nothing
-        '
-        'BasicLabel3
-        '
-        Me.BasicLabel3.AutoSize = True
-        Me.BasicLabel3.BackColor = System.Drawing.Color.Red
-        Me.BasicLabel3.BooleanDisplay = AdvancedHMIControls.BasicLabel.BooleanDisplayOption.TrueFalse
-        Me.BasicLabel3.CommComponent = Me.DF1Com1
-        Me.BasicLabel3.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.BasicLabel3.ForeColor = System.Drawing.Color.White
-        Me.BasicLabel3.HighlightColor = System.Drawing.Color.Red
-        Me.BasicLabel3.HighlightKeyCharacter = "!"
-        Me.BasicLabel3.KeypadAlpahNumeric = False
-        Me.BasicLabel3.KeypadFont = New System.Drawing.Font("Arial", 10.0!)
-        Me.BasicLabel3.KeypadFontColor = System.Drawing.Color.WhiteSmoke
-        Me.BasicLabel3.KeypadMaxValue = 0.0R
-        Me.BasicLabel3.KeypadMinValue = 0.0R
-        Me.BasicLabel3.KeypadScaleFactor = 1.0R
-        Me.BasicLabel3.KeypadShowCurrentValue = False
-        Me.BasicLabel3.KeypadText = Nothing
-        Me.BasicLabel3.KeypadWidth = 300
-        Me.BasicLabel3.Location = New System.Drawing.Point(50, 30)
-        Me.BasicLabel3.Name = "BasicLabel3"
-        Me.BasicLabel3.NumericFormat = Nothing
-        Me.BasicLabel3.PLCAddressKeypad = ""
-        Me.BasicLabel3.PLCAddressVisible = "B3:4/11"
-        Me.BasicLabel3.PollRate = 0
-        Me.BasicLabel3.Size = New System.Drawing.Size(252, 20)
-        Me.BasicLabel3.TabIndex = 62
-        Me.BasicLabel3.Text = "Storage Tank Low Level Alarm"
-        Me.BasicLabel3.Value = "Storage Tank Low Level Alarm"
-        Me.BasicLabel3.ValueLeftPadCharacter = Global.Microsoft.VisualBasic.ChrW(0)
-        Me.BasicLabel3.ValueLeftPadLength = 0
-        Me.BasicLabel3.ValuePrefix = Nothing
-        Me.BasicLabel3.ValueScaleFactor = 1.0R
-        Me.BasicLabel3.ValueSuffix = Nothing
-        '
-        'BasicLabel4
-        '
-        Me.BasicLabel4.AutoSize = True
-        Me.BasicLabel4.BackColor = System.Drawing.Color.Red
-        Me.BasicLabel4.BooleanDisplay = AdvancedHMIControls.BasicLabel.BooleanDisplayOption.TrueFalse
-        Me.BasicLabel4.CommComponent = Me.DF1Com1
-        Me.BasicLabel4.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.BasicLabel4.ForeColor = System.Drawing.Color.White
-        Me.BasicLabel4.HighlightColor = System.Drawing.Color.Red
-        Me.BasicLabel4.HighlightKeyCharacter = "!"
-        Me.BasicLabel4.KeypadAlpahNumeric = False
-        Me.BasicLabel4.KeypadFont = New System.Drawing.Font("Arial", 10.0!)
-        Me.BasicLabel4.KeypadFontColor = System.Drawing.Color.WhiteSmoke
-        Me.BasicLabel4.KeypadMaxValue = 0.0R
-        Me.BasicLabel4.KeypadMinValue = 0.0R
-        Me.BasicLabel4.KeypadScaleFactor = 1.0R
-        Me.BasicLabel4.KeypadShowCurrentValue = False
-        Me.BasicLabel4.KeypadText = Nothing
-        Me.BasicLabel4.KeypadWidth = 300
-        Me.BasicLabel4.Location = New System.Drawing.Point(50, 30)
-        Me.BasicLabel4.Name = "BasicLabel4"
-        Me.BasicLabel4.NumericFormat = Nothing
-        Me.BasicLabel4.PLCAddressKeypad = ""
-        Me.BasicLabel4.PLCAddressVisible = "B3:4/13"
-        Me.BasicLabel4.PollRate = 0
-        Me.BasicLabel4.Size = New System.Drawing.Size(257, 20)
-        Me.BasicLabel4.TabIndex = 63
-        Me.BasicLabel4.Text = "Storage Tank High Level Alarm"
-        Me.BasicLabel4.Value = "Storage Tank High Level Alarm"
-        Me.BasicLabel4.ValueLeftPadCharacter = Global.Microsoft.VisualBasic.ChrW(0)
-        Me.BasicLabel4.ValueLeftPadLength = 0
-        Me.BasicLabel4.ValuePrefix = Nothing
-        Me.BasicLabel4.ValueScaleFactor = 1.0R
-        Me.BasicLabel4.ValueSuffix = Nothing
-        '
-        'GroupBox1
-        '
-        Me.GroupBox1.Controls.Add(Me.BasicButton2)
-        Me.GroupBox1.Controls.Add(Me.BasicLabel3)
-        Me.GroupBox1.Controls.Add(Me.BasicLabel4)
-        Me.GroupBox1.Controls.Add(Me.BasicButton1)
-        Me.GroupBox1.Controls.Add(Me.BasicLabel2)
-        Me.GroupBox1.Controls.Add(Me.BasicLabel1)
-        Me.GroupBox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GroupBox1.ForeColor = System.Drawing.Color.White
-        Me.GroupBox1.Location = New System.Drawing.Point(389, 430)
-        Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Size = New System.Drawing.Size(346, 100)
-        Me.GroupBox1.TabIndex = 64
-        Me.GroupBox1.TabStop = False
-        Me.GroupBox1.Tag = "Alarms"
-        Me.GroupBox1.Text = "Alarms"
         '
         'BasicLabel7
         '
@@ -458,26 +257,6 @@ Partial Class MainForm
         Me.PilotLight3.TabIndex = 68
         Me.PilotLight3.Text = "Low Flow"
         Me.PilotLight3.Value = False
-        '
-        'PilotLight4
-        '
-        Me.PilotLight4.Blink = False
-        Me.PilotLight4.CommComponent = Me.DF1Com1
-        Me.PilotLight4.ForeColor = System.Drawing.Color.Black
-        Me.PilotLight4.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Small
-        Me.PilotLight4.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Red
-        Me.PilotLight4.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
-        Me.PilotLight4.Location = New System.Drawing.Point(829, 182)
-        Me.PilotLight4.Name = "PilotLight4"
-        Me.PilotLight4.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
-        Me.PilotLight4.PLCAddressClick = ""
-        Me.PilotLight4.PLCAddressText = ""
-        Me.PilotLight4.PLCAddressValue = "B3:4/8"
-        Me.PilotLight4.PLCAddressVisible = ""
-        Me.PilotLight4.Size = New System.Drawing.Size(75, 79)
-        Me.PilotLight4.TabIndex = 69
-        Me.PilotLight4.Text = "Pres. HH"
-        Me.PilotLight4.Value = False
         '
         'PilotLight5
         '
@@ -1066,6 +845,8 @@ Partial Class MainForm
         Me.BasicLabel8.Name = "BasicLabel8"
         Me.BasicLabel8.NumericFormat = Nothing
         Me.BasicLabel8.PLCAddressKeypad = ""
+        Me.BasicLabel8.PLCAddressValue = "N7:7"
+        Me.BasicLabel8.PLCAddressVisible = "B3:4/8"
         Me.BasicLabel8.PollRate = 0
         Me.BasicLabel8.Size = New System.Drawing.Size(34, 13)
         Me.BasicLabel8.TabIndex = 95
@@ -1288,10 +1069,10 @@ Partial Class MainForm
         Me.MessageDisplayByValue1.PLCAddressValue = "N7:0"
         Me.MessageDisplayByValue1.PLCAddressVisible = ""
         Me.MessageDisplayByValue1.ShowMessageNumber = False
-        Me.MessageDisplayByValue1.Size = New System.Drawing.Size(151, 13)
+        Me.MessageDisplayByValue1.Size = New System.Drawing.Size(24, 13)
         Me.MessageDisplayByValue1.SpeakMessage = False
         Me.MessageDisplayByValue1.TabIndex = 102
-        Me.MessageDisplayByValue1.Text = "MessageDisplayByValue1"
+        Me.MessageDisplayByValue1.Text = "Off"
         Me.MessageDisplayByValue1.Value = 0
         '
         'MessageDisplayByValue2
@@ -1444,195 +1225,6 @@ Partial Class MainForm
         Me.MessageDisplayByValue7.Text = "Off"
         Me.MessageDisplayByValue7.Value = 0
         '
-        'MessageDisplayByBit1
-        '
-        Me.MessageDisplayByBit1.AutoSize = True
-        Me.MessageDisplayByBit1.BackColor = System.Drawing.Color.Black
-        Me.MessageDisplayByBit1.CommComponent = Me.DF1Com1
-        Me.MessageDisplayByBit1.DefaultMessage = "No Messages"
-        Me.MessageDisplayByBit1.DisplayTime = 3000
-        Me.MessageDisplayByBit1.ForeColor = System.Drawing.Color.Black
-        Me.MessageDisplayByBit1.HighlightColor = System.Drawing.Color.Red
-        Me.MessageDisplayByBit1.HighlightKeyCharacter = "!"
-        Me.MessageDisplayByBit1.IniFileName = Nothing
-        Me.MessageDisplayByBit1.Location = New System.Drawing.Point(781, 17)
-        Me.MessageDisplayByBit1.Messages.Add(CType(resources.GetObject("MessageDisplayByBit1.Messages"), MfgControl.AdvancedHMI.Controls.MessageByBit))
-        Me.MessageDisplayByBit1.Messages.Add(CType(resources.GetObject("MessageDisplayByBit1.Messages1"), MfgControl.AdvancedHMI.Controls.MessageByBit))
-        Me.MessageDisplayByBit1.Name = "MessageDisplayByBit1"
-        Me.MessageDisplayByBit1.PLCAddressValues = "B3:0/1"
-        Me.MessageDisplayByBit1.PLCAddressVisible = ""
-        Me.MessageDisplayByBit1.PLCElementBitWidth = 32
-        Me.MessageDisplayByBit1.PLCNumberOfElements = 1
-        Me.MessageDisplayByBit1.ShowMessageNumber = False
-        Me.MessageDisplayByBit1.ShowUndefinedMessages = True
-        Me.MessageDisplayByBit1.Size = New System.Drawing.Size(134, 13)
-        Me.MessageDisplayByBit1.TabIndex = 109
-        Me.MessageDisplayByBit1.Text = "MessageDisplayByBit1"
-        Me.MessageDisplayByBit1.Value = CType(0, Long)
-        Me.MessageDisplayByBit1.ValueBitMask = CType(0, Long)
-        '
-        'MessageDisplayByBit2
-        '
-        Me.MessageDisplayByBit2.AutoSize = True
-        Me.MessageDisplayByBit2.BackColor = System.Drawing.Color.Black
-        Me.MessageDisplayByBit2.CommComponent = Me.DF1Com1
-        Me.MessageDisplayByBit2.DefaultMessage = "No Messages"
-        Me.MessageDisplayByBit2.DisplayTime = 3000
-        Me.MessageDisplayByBit2.ForeColor = System.Drawing.Color.Black
-        Me.MessageDisplayByBit2.HighlightColor = System.Drawing.Color.Red
-        Me.MessageDisplayByBit2.HighlightKeyCharacter = "!"
-        Me.MessageDisplayByBit2.IniFileName = Nothing
-        Me.MessageDisplayByBit2.Location = New System.Drawing.Point(781, 45)
-        Me.MessageDisplayByBit2.Messages.Add(CType(resources.GetObject("MessageDisplayByBit2.Messages"), MfgControl.AdvancedHMI.Controls.MessageByBit))
-        Me.MessageDisplayByBit2.Messages.Add(CType(resources.GetObject("MessageDisplayByBit2.Messages1"), MfgControl.AdvancedHMI.Controls.MessageByBit))
-        Me.MessageDisplayByBit2.Name = "MessageDisplayByBit2"
-        Me.MessageDisplayByBit2.PLCAddressValues = "B3:0/2"
-        Me.MessageDisplayByBit2.PLCAddressVisible = ""
-        Me.MessageDisplayByBit2.PLCElementBitWidth = 32
-        Me.MessageDisplayByBit2.PLCNumberOfElements = 1
-        Me.MessageDisplayByBit2.ShowMessageNumber = False
-        Me.MessageDisplayByBit2.ShowUndefinedMessages = True
-        Me.MessageDisplayByBit2.Size = New System.Drawing.Size(134, 13)
-        Me.MessageDisplayByBit2.TabIndex = 110
-        Me.MessageDisplayByBit2.Text = "MessageDisplayByBit2"
-        Me.MessageDisplayByBit2.Value = CType(0, Long)
-        Me.MessageDisplayByBit2.ValueBitMask = CType(0, Long)
-        '
-        'MessageDisplayByBit3
-        '
-        Me.MessageDisplayByBit3.AutoSize = True
-        Me.MessageDisplayByBit3.BackColor = System.Drawing.Color.Black
-        Me.MessageDisplayByBit3.CommComponent = Me.DF1Com1
-        Me.MessageDisplayByBit3.DefaultMessage = "No Messages"
-        Me.MessageDisplayByBit3.DisplayTime = 3000
-        Me.MessageDisplayByBit3.ForeColor = System.Drawing.Color.Black
-        Me.MessageDisplayByBit3.HighlightColor = System.Drawing.Color.Red
-        Me.MessageDisplayByBit3.HighlightKeyCharacter = "!"
-        Me.MessageDisplayByBit3.IniFileName = Nothing
-        Me.MessageDisplayByBit3.Location = New System.Drawing.Point(781, 75)
-        Me.MessageDisplayByBit3.Messages.Add(CType(resources.GetObject("MessageDisplayByBit3.Messages"), MfgControl.AdvancedHMI.Controls.MessageByBit))
-        Me.MessageDisplayByBit3.Messages.Add(CType(resources.GetObject("MessageDisplayByBit3.Messages1"), MfgControl.AdvancedHMI.Controls.MessageByBit))
-        Me.MessageDisplayByBit3.Name = "MessageDisplayByBit3"
-        Me.MessageDisplayByBit3.PLCAddressValues = "B3:0/3"
-        Me.MessageDisplayByBit3.PLCAddressVisible = ""
-        Me.MessageDisplayByBit3.PLCElementBitWidth = 32
-        Me.MessageDisplayByBit3.PLCNumberOfElements = 1
-        Me.MessageDisplayByBit3.ShowMessageNumber = False
-        Me.MessageDisplayByBit3.ShowUndefinedMessages = True
-        Me.MessageDisplayByBit3.Size = New System.Drawing.Size(134, 13)
-        Me.MessageDisplayByBit3.TabIndex = 111
-        Me.MessageDisplayByBit3.Text = "MessageDisplayByBit3"
-        Me.MessageDisplayByBit3.Value = CType(0, Long)
-        Me.MessageDisplayByBit3.ValueBitMask = CType(0, Long)
-        '
-        'MessageDisplayByBit4
-        '
-        Me.MessageDisplayByBit4.AutoSize = True
-        Me.MessageDisplayByBit4.BackColor = System.Drawing.Color.Black
-        Me.MessageDisplayByBit4.CommComponent = Me.DF1Com1
-        Me.MessageDisplayByBit4.DefaultMessage = "No Messages"
-        Me.MessageDisplayByBit4.DisplayTime = 3000
-        Me.MessageDisplayByBit4.ForeColor = System.Drawing.Color.Black
-        Me.MessageDisplayByBit4.HighlightColor = System.Drawing.Color.Red
-        Me.MessageDisplayByBit4.HighlightKeyCharacter = "!"
-        Me.MessageDisplayByBit4.IniFileName = Nothing
-        Me.MessageDisplayByBit4.Location = New System.Drawing.Point(781, 104)
-        Me.MessageDisplayByBit4.Messages.Add(CType(resources.GetObject("MessageDisplayByBit4.Messages"), MfgControl.AdvancedHMI.Controls.MessageByBit))
-        Me.MessageDisplayByBit4.Messages.Add(CType(resources.GetObject("MessageDisplayByBit4.Messages1"), MfgControl.AdvancedHMI.Controls.MessageByBit))
-        Me.MessageDisplayByBit4.Name = "MessageDisplayByBit4"
-        Me.MessageDisplayByBit4.PLCAddressValues = "B3:0/4"
-        Me.MessageDisplayByBit4.PLCAddressVisible = ""
-        Me.MessageDisplayByBit4.PLCElementBitWidth = 32
-        Me.MessageDisplayByBit4.PLCNumberOfElements = 1
-        Me.MessageDisplayByBit4.ShowMessageNumber = False
-        Me.MessageDisplayByBit4.ShowUndefinedMessages = True
-        Me.MessageDisplayByBit4.Size = New System.Drawing.Size(134, 13)
-        Me.MessageDisplayByBit4.TabIndex = 112
-        Me.MessageDisplayByBit4.Text = "MessageDisplayByBit4"
-        Me.MessageDisplayByBit4.Value = CType(0, Long)
-        Me.MessageDisplayByBit4.ValueBitMask = CType(0, Long)
-        '
-        'MessageDisplayByBit5
-        '
-        Me.MessageDisplayByBit5.AutoSize = True
-        Me.MessageDisplayByBit5.BackColor = System.Drawing.Color.Black
-        Me.MessageDisplayByBit5.CommComponent = Me.DF1Com1
-        Me.MessageDisplayByBit5.DefaultMessage = "No Messages"
-        Me.MessageDisplayByBit5.DisplayTime = 3000
-        Me.MessageDisplayByBit5.ForeColor = System.Drawing.Color.Black
-        Me.MessageDisplayByBit5.HighlightColor = System.Drawing.Color.Red
-        Me.MessageDisplayByBit5.HighlightKeyCharacter = "!"
-        Me.MessageDisplayByBit5.IniFileName = Nothing
-        Me.MessageDisplayByBit5.Location = New System.Drawing.Point(781, 130)
-        Me.MessageDisplayByBit5.Messages.Add(CType(resources.GetObject("MessageDisplayByBit5.Messages"), MfgControl.AdvancedHMI.Controls.MessageByBit))
-        Me.MessageDisplayByBit5.Messages.Add(CType(resources.GetObject("MessageDisplayByBit5.Messages1"), MfgControl.AdvancedHMI.Controls.MessageByBit))
-        Me.MessageDisplayByBit5.Name = "MessageDisplayByBit5"
-        Me.MessageDisplayByBit5.PLCAddressValues = "B3:0/5"
-        Me.MessageDisplayByBit5.PLCAddressVisible = ""
-        Me.MessageDisplayByBit5.PLCElementBitWidth = 32
-        Me.MessageDisplayByBit5.PLCNumberOfElements = 1
-        Me.MessageDisplayByBit5.ShowMessageNumber = False
-        Me.MessageDisplayByBit5.ShowUndefinedMessages = True
-        Me.MessageDisplayByBit5.Size = New System.Drawing.Size(134, 13)
-        Me.MessageDisplayByBit5.TabIndex = 113
-        Me.MessageDisplayByBit5.Text = "MessageDisplayByBit5"
-        Me.MessageDisplayByBit5.Value = CType(0, Long)
-        Me.MessageDisplayByBit5.ValueBitMask = CType(0, Long)
-        '
-        'MessageDisplayByBit6
-        '
-        Me.MessageDisplayByBit6.AutoSize = True
-        Me.MessageDisplayByBit6.BackColor = System.Drawing.Color.Black
-        Me.MessageDisplayByBit6.CommComponent = Me.DF1Com1
-        Me.MessageDisplayByBit6.DefaultMessage = "No Messages"
-        Me.MessageDisplayByBit6.DisplayTime = 3000
-        Me.MessageDisplayByBit6.ForeColor = System.Drawing.Color.Black
-        Me.MessageDisplayByBit6.HighlightColor = System.Drawing.Color.Red
-        Me.MessageDisplayByBit6.HighlightKeyCharacter = "!"
-        Me.MessageDisplayByBit6.IniFileName = Nothing
-        Me.MessageDisplayByBit6.Location = New System.Drawing.Point(781, 162)
-        Me.MessageDisplayByBit6.Messages.Add(CType(resources.GetObject("MessageDisplayByBit6.Messages"), MfgControl.AdvancedHMI.Controls.MessageByBit))
-        Me.MessageDisplayByBit6.Messages.Add(CType(resources.GetObject("MessageDisplayByBit6.Messages1"), MfgControl.AdvancedHMI.Controls.MessageByBit))
-        Me.MessageDisplayByBit6.Name = "MessageDisplayByBit6"
-        Me.MessageDisplayByBit6.PLCAddressValues = "B3:0/6"
-        Me.MessageDisplayByBit6.PLCAddressVisible = ""
-        Me.MessageDisplayByBit6.PLCElementBitWidth = 32
-        Me.MessageDisplayByBit6.PLCNumberOfElements = 1
-        Me.MessageDisplayByBit6.ShowMessageNumber = False
-        Me.MessageDisplayByBit6.ShowUndefinedMessages = True
-        Me.MessageDisplayByBit6.Size = New System.Drawing.Size(134, 13)
-        Me.MessageDisplayByBit6.TabIndex = 114
-        Me.MessageDisplayByBit6.Text = "MessageDisplayByBit6"
-        Me.MessageDisplayByBit6.Value = CType(0, Long)
-        Me.MessageDisplayByBit6.ValueBitMask = CType(0, Long)
-        '
-        'MessageDisplayByBit7
-        '
-        Me.MessageDisplayByBit7.AutoSize = True
-        Me.MessageDisplayByBit7.BackColor = System.Drawing.Color.Black
-        Me.MessageDisplayByBit7.CommComponent = Me.DF1Com1
-        Me.MessageDisplayByBit7.DefaultMessage = "No Messages"
-        Me.MessageDisplayByBit7.DisplayTime = 3000
-        Me.MessageDisplayByBit7.ForeColor = System.Drawing.Color.Black
-        Me.MessageDisplayByBit7.HighlightColor = System.Drawing.Color.Red
-        Me.MessageDisplayByBit7.HighlightKeyCharacter = "!"
-        Me.MessageDisplayByBit7.IniFileName = Nothing
-        Me.MessageDisplayByBit7.Location = New System.Drawing.Point(781, 191)
-        Me.MessageDisplayByBit7.Messages.Add(CType(resources.GetObject("MessageDisplayByBit7.Messages"), MfgControl.AdvancedHMI.Controls.MessageByBit))
-        Me.MessageDisplayByBit7.Messages.Add(CType(resources.GetObject("MessageDisplayByBit7.Messages1"), MfgControl.AdvancedHMI.Controls.MessageByBit))
-        Me.MessageDisplayByBit7.Name = "MessageDisplayByBit7"
-        Me.MessageDisplayByBit7.PLCAddressValues = "B3:0/7"
-        Me.MessageDisplayByBit7.PLCAddressVisible = ""
-        Me.MessageDisplayByBit7.PLCElementBitWidth = 32
-        Me.MessageDisplayByBit7.PLCNumberOfElements = 1
-        Me.MessageDisplayByBit7.ShowMessageNumber = False
-        Me.MessageDisplayByBit7.ShowUndefinedMessages = True
-        Me.MessageDisplayByBit7.Size = New System.Drawing.Size(134, 13)
-        Me.MessageDisplayByBit7.TabIndex = 115
-        Me.MessageDisplayByBit7.Text = "MessageDisplayByBit7"
-        Me.MessageDisplayByBit7.Value = CType(0, Long)
-        Me.MessageDisplayByBit7.ValueBitMask = CType(0, Long)
-        '
         'BasicButton26
         '
         Me.BasicButton26.BackColor = System.Drawing.Color.Black
@@ -1672,7 +1264,7 @@ Partial Class MainForm
         Me.BasicLabel5.KeypadShowCurrentValue = False
         Me.BasicLabel5.KeypadText = Nothing
         Me.BasicLabel5.KeypadWidth = 300
-        Me.BasicLabel5.Location = New System.Drawing.Point(424, 275)
+        Me.BasicLabel5.Location = New System.Drawing.Point(443, 275)
         Me.BasicLabel5.Name = "BasicLabel5"
         Me.BasicLabel5.NumericFormat = Nothing
         Me.BasicLabel5.PLCAddressKeypad = ""
@@ -1769,7 +1361,7 @@ Partial Class MainForm
         Me.BasicLabel16.KeypadShowCurrentValue = False
         Me.BasicLabel16.KeypadText = Nothing
         Me.BasicLabel16.KeypadWidth = 300
-        Me.BasicLabel16.Location = New System.Drawing.Point(424, 303)
+        Me.BasicLabel16.Location = New System.Drawing.Point(443, 303)
         Me.BasicLabel16.Name = "BasicLabel16"
         Me.BasicLabel16.NumericFormat = Nothing
         Me.BasicLabel16.PLCAddressKeypad = ""
@@ -1834,11 +1426,11 @@ Partial Class MainForm
         Me.BasicLabel18.KeypadShowCurrentValue = False
         Me.BasicLabel18.KeypadText = Nothing
         Me.BasicLabel18.KeypadWidth = 300
-        Me.BasicLabel18.Location = New System.Drawing.Point(424, 333)
+        Me.BasicLabel18.Location = New System.Drawing.Point(443, 333)
         Me.BasicLabel18.Name = "BasicLabel18"
         Me.BasicLabel18.NumericFormat = Nothing
         Me.BasicLabel18.PLCAddressKeypad = ""
-        Me.BasicLabel18.PLCAddressValue = "F8:10"
+        Me.BasicLabel18.PLCAddressValue = "F8:3"
         Me.BasicLabel18.PollRate = 0
         Me.BasicLabel18.Size = New System.Drawing.Size(69, 13)
         Me.BasicLabel18.TabIndex = 121
@@ -1850,11 +1442,511 @@ Partial Class MainForm
         Me.BasicLabel18.ValueScaleFactor = 1.0R
         Me.BasicLabel18.ValueSuffix = Nothing
         '
+        'PilotLight4
+        '
+        Me.PilotLight4.Blink = False
+        Me.PilotLight4.CommComponent = Me.DF1Com1
+        Me.PilotLight4.ForeColor = System.Drawing.Color.Black
+        Me.PilotLight4.LegendPlate = MfgControl.AdvancedHMI.Controls.PilotLight.LegendPlates.Small
+        Me.PilotLight4.LightColor = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.Red
+        Me.PilotLight4.LightColorOff = MfgControl.AdvancedHMI.Controls.PilotLight.LightColors.White
+        Me.PilotLight4.Location = New System.Drawing.Point(829, 182)
+        Me.PilotLight4.Name = "PilotLight4"
+        Me.PilotLight4.OutputType = MfgControl.AdvancedHMI.Controls.OutputType.MomentarySet
+        Me.PilotLight4.PLCAddressClick = ""
+        Me.PilotLight4.PLCAddressText = ""
+        Me.PilotLight4.PLCAddressValue = "B3:4/8"
+        Me.PilotLight4.PLCAddressVisible = ""
+        Me.PilotLight4.Size = New System.Drawing.Size(75, 79)
+        Me.PilotLight4.TabIndex = 123
+        Me.PilotLight4.Text = "Pres HH"
+        Me.PilotLight4.Value = False
+        '
+        'BasicLabel1
+        '
+        Me.BasicLabel1.AutoSize = True
+        Me.BasicLabel1.BackColor = System.Drawing.Color.Lime
+        Me.BasicLabel1.BooleanDisplay = AdvancedHMIControls.BasicLabel.BooleanDisplayOption.TrueFalse
+        Me.BasicLabel1.CommComponent = Me.DF1Com1
+        Me.BasicLabel1.ForeColor = System.Drawing.Color.Black
+        Me.BasicLabel1.HighlightColor = System.Drawing.Color.Red
+        Me.BasicLabel1.HighlightKeyCharacter = "!"
+        Me.BasicLabel1.KeypadAlpahNumeric = False
+        Me.BasicLabel1.KeypadFont = New System.Drawing.Font("Arial", 10.0!)
+        Me.BasicLabel1.KeypadFontColor = System.Drawing.Color.WhiteSmoke
+        Me.BasicLabel1.KeypadMaxValue = 0.0R
+        Me.BasicLabel1.KeypadMinValue = 0.0R
+        Me.BasicLabel1.KeypadScaleFactor = 1.0R
+        Me.BasicLabel1.KeypadShowCurrentValue = False
+        Me.BasicLabel1.KeypadText = Nothing
+        Me.BasicLabel1.KeypadWidth = 300
+        Me.BasicLabel1.Location = New System.Drawing.Point(777, 17)
+        Me.BasicLabel1.Name = "BasicLabel1"
+        Me.BasicLabel1.NumericFormat = Nothing
+        Me.BasicLabel1.PLCAddressKeypad = ""
+        Me.BasicLabel1.PLCAddressVisible = "B3:0/1"
+        Me.BasicLabel1.PollRate = 0
+        Me.BasicLabel1.Size = New System.Drawing.Size(27, 13)
+        Me.BasicLabel1.TabIndex = 124
+        Me.BasicLabel1.Text = " On"
+        Me.BasicLabel1.Value = " On"
+        Me.BasicLabel1.ValueLeftPadCharacter = Global.Microsoft.VisualBasic.ChrW(0)
+        Me.BasicLabel1.ValueLeftPadLength = 0
+        Me.BasicLabel1.ValuePrefix = Nothing
+        Me.BasicLabel1.ValueScaleFactor = 1.0R
+        Me.BasicLabel1.ValueSuffix = Nothing
+        '
+        'BasicLabel2
+        '
+        Me.BasicLabel2.AutoSize = True
+        Me.BasicLabel2.BackColor = System.Drawing.Color.Red
+        Me.BasicLabel2.BooleanDisplay = AdvancedHMIControls.BasicLabel.BooleanDisplayOption.TrueFalse
+        Me.BasicLabel2.CommComponent = Me.DF1Com1
+        Me.BasicLabel2.ForeColor = System.Drawing.Color.Black
+        Me.BasicLabel2.HighlightColor = System.Drawing.Color.Red
+        Me.BasicLabel2.HighlightKeyCharacter = "!"
+        Me.BasicLabel2.KeypadAlpahNumeric = False
+        Me.BasicLabel2.KeypadFont = New System.Drawing.Font("Arial", 10.0!)
+        Me.BasicLabel2.KeypadFontColor = System.Drawing.Color.WhiteSmoke
+        Me.BasicLabel2.KeypadMaxValue = 0.0R
+        Me.BasicLabel2.KeypadMinValue = 0.0R
+        Me.BasicLabel2.KeypadScaleFactor = 1.0R
+        Me.BasicLabel2.KeypadShowCurrentValue = False
+        Me.BasicLabel2.KeypadText = Nothing
+        Me.BasicLabel2.KeypadWidth = 300
+        Me.BasicLabel2.Location = New System.Drawing.Point(780, 17)
+        Me.BasicLabel2.Name = "BasicLabel2"
+        Me.BasicLabel2.NumericFormat = Nothing
+        Me.BasicLabel2.PLCAddressKeypad = ""
+        Me.BasicLabel2.PollRate = 0
+        Me.BasicLabel2.Size = New System.Drawing.Size(24, 13)
+        Me.BasicLabel2.TabIndex = 125
+        Me.BasicLabel2.Text = "Off"
+        Me.BasicLabel2.Value = "Off"
+        Me.BasicLabel2.ValueLeftPadCharacter = Global.Microsoft.VisualBasic.ChrW(0)
+        Me.BasicLabel2.ValueLeftPadLength = 0
+        Me.BasicLabel2.ValuePrefix = Nothing
+        Me.BasicLabel2.ValueScaleFactor = 1.0R
+        Me.BasicLabel2.ValueSuffix = Nothing
+        '
+        'BasicLabel3
+        '
+        Me.BasicLabel3.AutoSize = True
+        Me.BasicLabel3.BackColor = System.Drawing.Color.Red
+        Me.BasicLabel3.BooleanDisplay = AdvancedHMIControls.BasicLabel.BooleanDisplayOption.TrueFalse
+        Me.BasicLabel3.CommComponent = Me.DF1Com1
+        Me.BasicLabel3.ForeColor = System.Drawing.Color.Black
+        Me.BasicLabel3.HighlightColor = System.Drawing.Color.Red
+        Me.BasicLabel3.HighlightKeyCharacter = "!"
+        Me.BasicLabel3.KeypadAlpahNumeric = False
+        Me.BasicLabel3.KeypadFont = New System.Drawing.Font("Arial", 10.0!)
+        Me.BasicLabel3.KeypadFontColor = System.Drawing.Color.WhiteSmoke
+        Me.BasicLabel3.KeypadMaxValue = 0.0R
+        Me.BasicLabel3.KeypadMinValue = 0.0R
+        Me.BasicLabel3.KeypadScaleFactor = 1.0R
+        Me.BasicLabel3.KeypadShowCurrentValue = False
+        Me.BasicLabel3.KeypadText = Nothing
+        Me.BasicLabel3.KeypadWidth = 300
+        Me.BasicLabel3.Location = New System.Drawing.Point(781, 45)
+        Me.BasicLabel3.Name = "BasicLabel3"
+        Me.BasicLabel3.NumericFormat = Nothing
+        Me.BasicLabel3.PLCAddressKeypad = ""
+        Me.BasicLabel3.PollRate = 0
+        Me.BasicLabel3.Size = New System.Drawing.Size(24, 13)
+        Me.BasicLabel3.TabIndex = 126
+        Me.BasicLabel3.Text = "Off"
+        Me.BasicLabel3.Value = "Off"
+        Me.BasicLabel3.ValueLeftPadCharacter = Global.Microsoft.VisualBasic.ChrW(0)
+        Me.BasicLabel3.ValueLeftPadLength = 0
+        Me.BasicLabel3.ValuePrefix = Nothing
+        Me.BasicLabel3.ValueScaleFactor = 1.0R
+        Me.BasicLabel3.ValueSuffix = Nothing
+        '
+        'BasicLabel4
+        '
+        Me.BasicLabel4.AutoSize = True
+        Me.BasicLabel4.BackColor = System.Drawing.Color.Red
+        Me.BasicLabel4.BooleanDisplay = AdvancedHMIControls.BasicLabel.BooleanDisplayOption.TrueFalse
+        Me.BasicLabel4.CommComponent = Me.DF1Com1
+        Me.BasicLabel4.ForeColor = System.Drawing.Color.Black
+        Me.BasicLabel4.HighlightColor = System.Drawing.Color.Red
+        Me.BasicLabel4.HighlightKeyCharacter = "!"
+        Me.BasicLabel4.KeypadAlpahNumeric = False
+        Me.BasicLabel4.KeypadFont = New System.Drawing.Font("Arial", 10.0!)
+        Me.BasicLabel4.KeypadFontColor = System.Drawing.Color.WhiteSmoke
+        Me.BasicLabel4.KeypadMaxValue = 0.0R
+        Me.BasicLabel4.KeypadMinValue = 0.0R
+        Me.BasicLabel4.KeypadScaleFactor = 1.0R
+        Me.BasicLabel4.KeypadShowCurrentValue = False
+        Me.BasicLabel4.KeypadText = Nothing
+        Me.BasicLabel4.KeypadWidth = 300
+        Me.BasicLabel4.Location = New System.Drawing.Point(781, 75)
+        Me.BasicLabel4.Name = "BasicLabel4"
+        Me.BasicLabel4.NumericFormat = Nothing
+        Me.BasicLabel4.PLCAddressKeypad = ""
+        Me.BasicLabel4.PollRate = 0
+        Me.BasicLabel4.Size = New System.Drawing.Size(24, 13)
+        Me.BasicLabel4.TabIndex = 127
+        Me.BasicLabel4.Text = "Off"
+        Me.BasicLabel4.Value = "Off"
+        Me.BasicLabel4.ValueLeftPadCharacter = Global.Microsoft.VisualBasic.ChrW(0)
+        Me.BasicLabel4.ValueLeftPadLength = 0
+        Me.BasicLabel4.ValuePrefix = Nothing
+        Me.BasicLabel4.ValueScaleFactor = 1.0R
+        Me.BasicLabel4.ValueSuffix = Nothing
+        '
+        'BasicLabel19
+        '
+        Me.BasicLabel19.AutoSize = True
+        Me.BasicLabel19.BackColor = System.Drawing.Color.Red
+        Me.BasicLabel19.BooleanDisplay = AdvancedHMIControls.BasicLabel.BooleanDisplayOption.TrueFalse
+        Me.BasicLabel19.CommComponent = Me.DF1Com1
+        Me.BasicLabel19.ForeColor = System.Drawing.Color.Black
+        Me.BasicLabel19.HighlightColor = System.Drawing.Color.Red
+        Me.BasicLabel19.HighlightKeyCharacter = "!"
+        Me.BasicLabel19.KeypadAlpahNumeric = False
+        Me.BasicLabel19.KeypadFont = New System.Drawing.Font("Arial", 10.0!)
+        Me.BasicLabel19.KeypadFontColor = System.Drawing.Color.WhiteSmoke
+        Me.BasicLabel19.KeypadMaxValue = 0.0R
+        Me.BasicLabel19.KeypadMinValue = 0.0R
+        Me.BasicLabel19.KeypadScaleFactor = 1.0R
+        Me.BasicLabel19.KeypadShowCurrentValue = False
+        Me.BasicLabel19.KeypadText = Nothing
+        Me.BasicLabel19.KeypadWidth = 300
+        Me.BasicLabel19.Location = New System.Drawing.Point(781, 104)
+        Me.BasicLabel19.Name = "BasicLabel19"
+        Me.BasicLabel19.NumericFormat = Nothing
+        Me.BasicLabel19.PLCAddressKeypad = ""
+        Me.BasicLabel19.PollRate = 0
+        Me.BasicLabel19.Size = New System.Drawing.Size(24, 13)
+        Me.BasicLabel19.TabIndex = 128
+        Me.BasicLabel19.Text = "Off"
+        Me.BasicLabel19.Value = "Off"
+        Me.BasicLabel19.ValueLeftPadCharacter = Global.Microsoft.VisualBasic.ChrW(0)
+        Me.BasicLabel19.ValueLeftPadLength = 0
+        Me.BasicLabel19.ValuePrefix = Nothing
+        Me.BasicLabel19.ValueScaleFactor = 1.0R
+        Me.BasicLabel19.ValueSuffix = Nothing
+        '
+        'BasicLabel20
+        '
+        Me.BasicLabel20.AutoSize = True
+        Me.BasicLabel20.BackColor = System.Drawing.Color.Red
+        Me.BasicLabel20.BooleanDisplay = AdvancedHMIControls.BasicLabel.BooleanDisplayOption.TrueFalse
+        Me.BasicLabel20.CommComponent = Me.DF1Com1
+        Me.BasicLabel20.ForeColor = System.Drawing.Color.Black
+        Me.BasicLabel20.HighlightColor = System.Drawing.Color.Red
+        Me.BasicLabel20.HighlightKeyCharacter = "!"
+        Me.BasicLabel20.KeypadAlpahNumeric = False
+        Me.BasicLabel20.KeypadFont = New System.Drawing.Font("Arial", 10.0!)
+        Me.BasicLabel20.KeypadFontColor = System.Drawing.Color.WhiteSmoke
+        Me.BasicLabel20.KeypadMaxValue = 0.0R
+        Me.BasicLabel20.KeypadMinValue = 0.0R
+        Me.BasicLabel20.KeypadScaleFactor = 1.0R
+        Me.BasicLabel20.KeypadShowCurrentValue = False
+        Me.BasicLabel20.KeypadText = Nothing
+        Me.BasicLabel20.KeypadWidth = 300
+        Me.BasicLabel20.Location = New System.Drawing.Point(781, 130)
+        Me.BasicLabel20.Name = "BasicLabel20"
+        Me.BasicLabel20.NumericFormat = Nothing
+        Me.BasicLabel20.PLCAddressKeypad = ""
+        Me.BasicLabel20.PollRate = 0
+        Me.BasicLabel20.Size = New System.Drawing.Size(24, 13)
+        Me.BasicLabel20.TabIndex = 129
+        Me.BasicLabel20.Text = "Off"
+        Me.BasicLabel20.Value = "Off"
+        Me.BasicLabel20.ValueLeftPadCharacter = Global.Microsoft.VisualBasic.ChrW(0)
+        Me.BasicLabel20.ValueLeftPadLength = 0
+        Me.BasicLabel20.ValuePrefix = Nothing
+        Me.BasicLabel20.ValueScaleFactor = 1.0R
+        Me.BasicLabel20.ValueSuffix = Nothing
+        '
+        'BasicLabel21
+        '
+        Me.BasicLabel21.AutoSize = True
+        Me.BasicLabel21.BackColor = System.Drawing.Color.Red
+        Me.BasicLabel21.BooleanDisplay = AdvancedHMIControls.BasicLabel.BooleanDisplayOption.TrueFalse
+        Me.BasicLabel21.CommComponent = Me.DF1Com1
+        Me.BasicLabel21.ForeColor = System.Drawing.Color.Black
+        Me.BasicLabel21.HighlightColor = System.Drawing.Color.Red
+        Me.BasicLabel21.HighlightKeyCharacter = "!"
+        Me.BasicLabel21.KeypadAlpahNumeric = False
+        Me.BasicLabel21.KeypadFont = New System.Drawing.Font("Arial", 10.0!)
+        Me.BasicLabel21.KeypadFontColor = System.Drawing.Color.WhiteSmoke
+        Me.BasicLabel21.KeypadMaxValue = 0.0R
+        Me.BasicLabel21.KeypadMinValue = 0.0R
+        Me.BasicLabel21.KeypadScaleFactor = 1.0R
+        Me.BasicLabel21.KeypadShowCurrentValue = False
+        Me.BasicLabel21.KeypadText = Nothing
+        Me.BasicLabel21.KeypadWidth = 300
+        Me.BasicLabel21.Location = New System.Drawing.Point(781, 191)
+        Me.BasicLabel21.Name = "BasicLabel21"
+        Me.BasicLabel21.NumericFormat = Nothing
+        Me.BasicLabel21.PLCAddressKeypad = ""
+        Me.BasicLabel21.PollRate = 0
+        Me.BasicLabel21.Size = New System.Drawing.Size(24, 13)
+        Me.BasicLabel21.TabIndex = 130
+        Me.BasicLabel21.Text = "Off"
+        Me.BasicLabel21.Value = "Off"
+        Me.BasicLabel21.ValueLeftPadCharacter = Global.Microsoft.VisualBasic.ChrW(0)
+        Me.BasicLabel21.ValueLeftPadLength = 0
+        Me.BasicLabel21.ValuePrefix = Nothing
+        Me.BasicLabel21.ValueScaleFactor = 1.0R
+        Me.BasicLabel21.ValueSuffix = Nothing
+        '
+        'BasicLabel22
+        '
+        Me.BasicLabel22.AutoSize = True
+        Me.BasicLabel22.BackColor = System.Drawing.Color.Red
+        Me.BasicLabel22.BooleanDisplay = AdvancedHMIControls.BasicLabel.BooleanDisplayOption.TrueFalse
+        Me.BasicLabel22.CommComponent = Me.DF1Com1
+        Me.BasicLabel22.ForeColor = System.Drawing.Color.Black
+        Me.BasicLabel22.HighlightColor = System.Drawing.Color.Red
+        Me.BasicLabel22.HighlightKeyCharacter = "!"
+        Me.BasicLabel22.KeypadAlpahNumeric = False
+        Me.BasicLabel22.KeypadFont = New System.Drawing.Font("Arial", 10.0!)
+        Me.BasicLabel22.KeypadFontColor = System.Drawing.Color.WhiteSmoke
+        Me.BasicLabel22.KeypadMaxValue = 0.0R
+        Me.BasicLabel22.KeypadMinValue = 0.0R
+        Me.BasicLabel22.KeypadScaleFactor = 1.0R
+        Me.BasicLabel22.KeypadShowCurrentValue = False
+        Me.BasicLabel22.KeypadText = Nothing
+        Me.BasicLabel22.KeypadWidth = 300
+        Me.BasicLabel22.Location = New System.Drawing.Point(781, 162)
+        Me.BasicLabel22.Name = "BasicLabel22"
+        Me.BasicLabel22.NumericFormat = Nothing
+        Me.BasicLabel22.PLCAddressKeypad = ""
+        Me.BasicLabel22.PollRate = 0
+        Me.BasicLabel22.Size = New System.Drawing.Size(24, 13)
+        Me.BasicLabel22.TabIndex = 131
+        Me.BasicLabel22.Text = "Off"
+        Me.BasicLabel22.Value = "Off"
+        Me.BasicLabel22.ValueLeftPadCharacter = Global.Microsoft.VisualBasic.ChrW(0)
+        Me.BasicLabel22.ValueLeftPadLength = 0
+        Me.BasicLabel22.ValuePrefix = Nothing
+        Me.BasicLabel22.ValueScaleFactor = 1.0R
+        Me.BasicLabel22.ValueSuffix = Nothing
+        '
+        'BasicLabel23
+        '
+        Me.BasicLabel23.AutoSize = True
+        Me.BasicLabel23.BackColor = System.Drawing.Color.Lime
+        Me.BasicLabel23.BooleanDisplay = AdvancedHMIControls.BasicLabel.BooleanDisplayOption.TrueFalse
+        Me.BasicLabel23.CommComponent = Me.DF1Com1
+        Me.BasicLabel23.ForeColor = System.Drawing.Color.Black
+        Me.BasicLabel23.HighlightColor = System.Drawing.Color.Red
+        Me.BasicLabel23.HighlightKeyCharacter = "!"
+        Me.BasicLabel23.KeypadAlpahNumeric = False
+        Me.BasicLabel23.KeypadFont = New System.Drawing.Font("Arial", 10.0!)
+        Me.BasicLabel23.KeypadFontColor = System.Drawing.Color.WhiteSmoke
+        Me.BasicLabel23.KeypadMaxValue = 0.0R
+        Me.BasicLabel23.KeypadMinValue = 0.0R
+        Me.BasicLabel23.KeypadScaleFactor = 1.0R
+        Me.BasicLabel23.KeypadShowCurrentValue = False
+        Me.BasicLabel23.KeypadText = Nothing
+        Me.BasicLabel23.KeypadWidth = 300
+        Me.BasicLabel23.Location = New System.Drawing.Point(778, 45)
+        Me.BasicLabel23.Name = "BasicLabel23"
+        Me.BasicLabel23.NumericFormat = Nothing
+        Me.BasicLabel23.PLCAddressKeypad = ""
+        Me.BasicLabel23.PLCAddressVisible = "B3:0/2"
+        Me.BasicLabel23.PollRate = 0
+        Me.BasicLabel23.Size = New System.Drawing.Size(27, 13)
+        Me.BasicLabel23.TabIndex = 132
+        Me.BasicLabel23.Text = " On"
+        Me.BasicLabel23.Value = " On"
+        Me.BasicLabel23.ValueLeftPadCharacter = Global.Microsoft.VisualBasic.ChrW(0)
+        Me.BasicLabel23.ValueLeftPadLength = 0
+        Me.BasicLabel23.ValuePrefix = Nothing
+        Me.BasicLabel23.ValueScaleFactor = 1.0R
+        Me.BasicLabel23.ValueSuffix = Nothing
+        '
+        'BasicLabel24
+        '
+        Me.BasicLabel24.AutoSize = True
+        Me.BasicLabel24.BackColor = System.Drawing.Color.Lime
+        Me.BasicLabel24.BooleanDisplay = AdvancedHMIControls.BasicLabel.BooleanDisplayOption.TrueFalse
+        Me.BasicLabel24.CommComponent = Me.DF1Com1
+        Me.BasicLabel24.ForeColor = System.Drawing.Color.Black
+        Me.BasicLabel24.HighlightColor = System.Drawing.Color.Red
+        Me.BasicLabel24.HighlightKeyCharacter = "!"
+        Me.BasicLabel24.KeypadAlpahNumeric = False
+        Me.BasicLabel24.KeypadFont = New System.Drawing.Font("Arial", 10.0!)
+        Me.BasicLabel24.KeypadFontColor = System.Drawing.Color.WhiteSmoke
+        Me.BasicLabel24.KeypadMaxValue = 0.0R
+        Me.BasicLabel24.KeypadMinValue = 0.0R
+        Me.BasicLabel24.KeypadScaleFactor = 1.0R
+        Me.BasicLabel24.KeypadShowCurrentValue = False
+        Me.BasicLabel24.KeypadText = Nothing
+        Me.BasicLabel24.KeypadWidth = 300
+        Me.BasicLabel24.Location = New System.Drawing.Point(778, 130)
+        Me.BasicLabel24.Name = "BasicLabel24"
+        Me.BasicLabel24.NumericFormat = Nothing
+        Me.BasicLabel24.PLCAddressKeypad = ""
+        Me.BasicLabel24.PLCAddressVisible = "B3:0/5"
+        Me.BasicLabel24.PollRate = 0
+        Me.BasicLabel24.Size = New System.Drawing.Size(27, 13)
+        Me.BasicLabel24.TabIndex = 133
+        Me.BasicLabel24.Text = " On"
+        Me.BasicLabel24.Value = " On"
+        Me.BasicLabel24.ValueLeftPadCharacter = Global.Microsoft.VisualBasic.ChrW(0)
+        Me.BasicLabel24.ValueLeftPadLength = 0
+        Me.BasicLabel24.ValuePrefix = Nothing
+        Me.BasicLabel24.ValueScaleFactor = 1.0R
+        Me.BasicLabel24.ValueSuffix = Nothing
+        '
+        'BasicLabel25
+        '
+        Me.BasicLabel25.AutoSize = True
+        Me.BasicLabel25.BackColor = System.Drawing.Color.Lime
+        Me.BasicLabel25.BooleanDisplay = AdvancedHMIControls.BasicLabel.BooleanDisplayOption.TrueFalse
+        Me.BasicLabel25.CommComponent = Me.DF1Com1
+        Me.BasicLabel25.ForeColor = System.Drawing.Color.Black
+        Me.BasicLabel25.HighlightColor = System.Drawing.Color.Red
+        Me.BasicLabel25.HighlightKeyCharacter = "!"
+        Me.BasicLabel25.KeypadAlpahNumeric = False
+        Me.BasicLabel25.KeypadFont = New System.Drawing.Font("Arial", 10.0!)
+        Me.BasicLabel25.KeypadFontColor = System.Drawing.Color.WhiteSmoke
+        Me.BasicLabel25.KeypadMaxValue = 0.0R
+        Me.BasicLabel25.KeypadMinValue = 0.0R
+        Me.BasicLabel25.KeypadScaleFactor = 1.0R
+        Me.BasicLabel25.KeypadShowCurrentValue = False
+        Me.BasicLabel25.KeypadText = Nothing
+        Me.BasicLabel25.KeypadWidth = 300
+        Me.BasicLabel25.Location = New System.Drawing.Point(778, 104)
+        Me.BasicLabel25.Name = "BasicLabel25"
+        Me.BasicLabel25.NumericFormat = Nothing
+        Me.BasicLabel25.PLCAddressKeypad = ""
+        Me.BasicLabel25.PLCAddressVisible = "B3:0/4"
+        Me.BasicLabel25.PollRate = 0
+        Me.BasicLabel25.Size = New System.Drawing.Size(27, 13)
+        Me.BasicLabel25.TabIndex = 134
+        Me.BasicLabel25.Text = " On"
+        Me.BasicLabel25.Value = " On"
+        Me.BasicLabel25.ValueLeftPadCharacter = Global.Microsoft.VisualBasic.ChrW(0)
+        Me.BasicLabel25.ValueLeftPadLength = 0
+        Me.BasicLabel25.ValuePrefix = Nothing
+        Me.BasicLabel25.ValueScaleFactor = 1.0R
+        Me.BasicLabel25.ValueSuffix = Nothing
+        '
+        'BasicLabel26
+        '
+        Me.BasicLabel26.AutoSize = True
+        Me.BasicLabel26.BackColor = System.Drawing.Color.Lime
+        Me.BasicLabel26.BooleanDisplay = AdvancedHMIControls.BasicLabel.BooleanDisplayOption.TrueFalse
+        Me.BasicLabel26.CommComponent = Me.DF1Com1
+        Me.BasicLabel26.ForeColor = System.Drawing.Color.Black
+        Me.BasicLabel26.HighlightColor = System.Drawing.Color.Red
+        Me.BasicLabel26.HighlightKeyCharacter = "!"
+        Me.BasicLabel26.KeypadAlpahNumeric = False
+        Me.BasicLabel26.KeypadFont = New System.Drawing.Font("Arial", 10.0!)
+        Me.BasicLabel26.KeypadFontColor = System.Drawing.Color.WhiteSmoke
+        Me.BasicLabel26.KeypadMaxValue = 0.0R
+        Me.BasicLabel26.KeypadMinValue = 0.0R
+        Me.BasicLabel26.KeypadScaleFactor = 1.0R
+        Me.BasicLabel26.KeypadShowCurrentValue = False
+        Me.BasicLabel26.KeypadText = Nothing
+        Me.BasicLabel26.KeypadWidth = 300
+        Me.BasicLabel26.Location = New System.Drawing.Point(778, 75)
+        Me.BasicLabel26.Name = "BasicLabel26"
+        Me.BasicLabel26.NumericFormat = Nothing
+        Me.BasicLabel26.PLCAddressKeypad = ""
+        Me.BasicLabel26.PLCAddressVisible = "B3:0/3"
+        Me.BasicLabel26.PollRate = 0
+        Me.BasicLabel26.Size = New System.Drawing.Size(27, 13)
+        Me.BasicLabel26.TabIndex = 135
+        Me.BasicLabel26.Text = " On"
+        Me.BasicLabel26.Value = " On"
+        Me.BasicLabel26.ValueLeftPadCharacter = Global.Microsoft.VisualBasic.ChrW(0)
+        Me.BasicLabel26.ValueLeftPadLength = 0
+        Me.BasicLabel26.ValuePrefix = Nothing
+        Me.BasicLabel26.ValueScaleFactor = 1.0R
+        Me.BasicLabel26.ValueSuffix = Nothing
+        '
+        'BasicLabel27
+        '
+        Me.BasicLabel27.AutoSize = True
+        Me.BasicLabel27.BackColor = System.Drawing.Color.Lime
+        Me.BasicLabel27.BooleanDisplay = AdvancedHMIControls.BasicLabel.BooleanDisplayOption.TrueFalse
+        Me.BasicLabel27.CommComponent = Me.DF1Com1
+        Me.BasicLabel27.ForeColor = System.Drawing.Color.Black
+        Me.BasicLabel27.HighlightColor = System.Drawing.Color.Red
+        Me.BasicLabel27.HighlightKeyCharacter = "!"
+        Me.BasicLabel27.KeypadAlpahNumeric = False
+        Me.BasicLabel27.KeypadFont = New System.Drawing.Font("Arial", 10.0!)
+        Me.BasicLabel27.KeypadFontColor = System.Drawing.Color.WhiteSmoke
+        Me.BasicLabel27.KeypadMaxValue = 0.0R
+        Me.BasicLabel27.KeypadMinValue = 0.0R
+        Me.BasicLabel27.KeypadScaleFactor = 1.0R
+        Me.BasicLabel27.KeypadShowCurrentValue = False
+        Me.BasicLabel27.KeypadText = Nothing
+        Me.BasicLabel27.KeypadWidth = 300
+        Me.BasicLabel27.Location = New System.Drawing.Point(778, 162)
+        Me.BasicLabel27.Name = "BasicLabel27"
+        Me.BasicLabel27.NumericFormat = Nothing
+        Me.BasicLabel27.PLCAddressKeypad = ""
+        Me.BasicLabel27.PLCAddressVisible = "B3:0/6"
+        Me.BasicLabel27.PollRate = 0
+        Me.BasicLabel27.Size = New System.Drawing.Size(27, 13)
+        Me.BasicLabel27.TabIndex = 136
+        Me.BasicLabel27.Text = " On"
+        Me.BasicLabel27.Value = " On"
+        Me.BasicLabel27.ValueLeftPadCharacter = Global.Microsoft.VisualBasic.ChrW(0)
+        Me.BasicLabel27.ValueLeftPadLength = 0
+        Me.BasicLabel27.ValuePrefix = Nothing
+        Me.BasicLabel27.ValueScaleFactor = 1.0R
+        Me.BasicLabel27.ValueSuffix = Nothing
+        '
+        'BasicLabel28
+        '
+        Me.BasicLabel28.AutoSize = True
+        Me.BasicLabel28.BackColor = System.Drawing.Color.Lime
+        Me.BasicLabel28.BooleanDisplay = AdvancedHMIControls.BasicLabel.BooleanDisplayOption.TrueFalse
+        Me.BasicLabel28.CommComponent = Me.DF1Com1
+        Me.BasicLabel28.ForeColor = System.Drawing.Color.Black
+        Me.BasicLabel28.HighlightColor = System.Drawing.Color.Red
+        Me.BasicLabel28.HighlightKeyCharacter = "!"
+        Me.BasicLabel28.KeypadAlpahNumeric = False
+        Me.BasicLabel28.KeypadFont = New System.Drawing.Font("Arial", 10.0!)
+        Me.BasicLabel28.KeypadFontColor = System.Drawing.Color.WhiteSmoke
+        Me.BasicLabel28.KeypadMaxValue = 0.0R
+        Me.BasicLabel28.KeypadMinValue = 0.0R
+        Me.BasicLabel28.KeypadScaleFactor = 1.0R
+        Me.BasicLabel28.KeypadShowCurrentValue = False
+        Me.BasicLabel28.KeypadText = Nothing
+        Me.BasicLabel28.KeypadWidth = 300
+        Me.BasicLabel28.Location = New System.Drawing.Point(778, 191)
+        Me.BasicLabel28.Name = "BasicLabel28"
+        Me.BasicLabel28.NumericFormat = Nothing
+        Me.BasicLabel28.PLCAddressKeypad = ""
+        Me.BasicLabel28.PLCAddressVisible = "B3:0/7"
+        Me.BasicLabel28.PollRate = 0
+        Me.BasicLabel28.Size = New System.Drawing.Size(27, 13)
+        Me.BasicLabel28.TabIndex = 137
+        Me.BasicLabel28.Text = " On"
+        Me.BasicLabel28.Value = " On"
+        Me.BasicLabel28.ValueLeftPadCharacter = Global.Microsoft.VisualBasic.ChrW(0)
+        Me.BasicLabel28.ValueLeftPadLength = 0
+        Me.BasicLabel28.ValuePrefix = Nothing
+        Me.BasicLabel28.ValueScaleFactor = 1.0R
+        Me.BasicLabel28.ValueSuffix = Nothing
+        '
         'MainForm
         '
         Me.AutoScroll = True
         Me.BackColor = System.Drawing.Color.Black
         Me.ClientSize = New System.Drawing.Size(916, 562)
+        Me.Controls.Add(Me.BasicLabel28)
+        Me.Controls.Add(Me.BasicLabel27)
+        Me.Controls.Add(Me.BasicLabel26)
+        Me.Controls.Add(Me.BasicLabel25)
+        Me.Controls.Add(Me.BasicLabel24)
+        Me.Controls.Add(Me.BasicLabel23)
+        Me.Controls.Add(Me.BasicLabel21)
+        Me.Controls.Add(Me.BasicLabel1)
+        Me.Controls.Add(Me.PilotLight4)
+        Me.Controls.Add(Me.PilotLight5)
+        Me.Controls.Add(Me.PilotLight2)
         Me.Controls.Add(Me.BasicLabel17)
         Me.Controls.Add(Me.BasicLabel18)
         Me.Controls.Add(Me.BasicLabel15)
@@ -1862,13 +1954,6 @@ Partial Class MainForm
         Me.Controls.Add(Me.BasicLabel6)
         Me.Controls.Add(Me.BasicLabel5)
         Me.Controls.Add(Me.BasicButton26)
-        Me.Controls.Add(Me.MessageDisplayByBit7)
-        Me.Controls.Add(Me.MessageDisplayByBit6)
-        Me.Controls.Add(Me.MessageDisplayByBit5)
-        Me.Controls.Add(Me.MessageDisplayByBit4)
-        Me.Controls.Add(Me.MessageDisplayByBit3)
-        Me.Controls.Add(Me.MessageDisplayByBit2)
-        Me.Controls.Add(Me.MessageDisplayByBit1)
         Me.Controls.Add(Me.MessageDisplayByValue7)
         Me.Controls.Add(Me.MessageDisplayByValue6)
         Me.Controls.Add(Me.MessageDisplayByValue5)
@@ -1908,24 +1993,24 @@ Partial Class MainForm
         Me.Controls.Add(Me.PilotLight6)
         Me.Controls.Add(Me.BasicButton4)
         Me.Controls.Add(Me.BasicButton3)
-        Me.Controls.Add(Me.PilotLight5)
-        Me.Controls.Add(Me.PilotLight4)
         Me.Controls.Add(Me.PilotLight3)
-        Me.Controls.Add(Me.PilotLight2)
         Me.Controls.Add(Me.BasicLabel7)
-        Me.Controls.Add(Me.GroupBox1)
         Me.Controls.Add(Me.Tank1)
         Me.Controls.Add(Me.PilotLight1)
         Me.Controls.Add(Me.MomentaryButton2)
         Me.Controls.Add(Me.MomentaryButton1)
+        Me.Controls.Add(Me.BasicLabel2)
+        Me.Controls.Add(Me.BasicLabel22)
+        Me.Controls.Add(Me.BasicLabel20)
+        Me.Controls.Add(Me.BasicLabel19)
+        Me.Controls.Add(Me.BasicLabel4)
+        Me.Controls.Add(Me.BasicLabel3)
         Me.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ForeColor = System.Drawing.Color.White
         Me.KeyPreview = True
         Me.Name = "MainForm"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.Manual
         Me.Text = "AdvancedHMI v3.99d"
-        Me.GroupBox1.ResumeLayout(False)
-        Me.GroupBox1.PerformLayout()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -1935,16 +2020,8 @@ Partial Class MainForm
     Friend WithEvents MomentaryButton2 As AdvancedHMIControls.MomentaryButton
     Friend WithEvents PilotLight1 As AdvancedHMIControls.PilotLight
     Friend WithEvents Tank1 As AdvancedHMIControls.Tank
-    Friend WithEvents BasicButton2 As AdvancedHMIControls.BasicButton
-    Friend WithEvents BasicButton1 As AdvancedHMIControls.BasicButton
-    Friend WithEvents BasicLabel1 As AdvancedHMIControls.BasicLabel
-    Friend WithEvents BasicLabel2 As AdvancedHMIControls.BasicLabel
-    Friend WithEvents BasicLabel4 As AdvancedHMIControls.BasicLabel
-    Friend WithEvents BasicLabel3 As AdvancedHMIControls.BasicLabel
-    Friend WithEvents GroupBox1 As System.Windows.Forms.GroupBox
     Friend WithEvents BasicLabel7 As AdvancedHMIControls.BasicLabel
     Friend WithEvents PilotLight5 As AdvancedHMIControls.PilotLight
-    Friend WithEvents PilotLight4 As AdvancedHMIControls.PilotLight
     Friend WithEvents PilotLight3 As AdvancedHMIControls.PilotLight
     Friend WithEvents PilotLight2 As AdvancedHMIControls.PilotLight
     Friend WithEvents BasicButton4 As AdvancedHMIControls.BasicButton
@@ -1986,13 +2063,6 @@ Partial Class MainForm
     Friend WithEvents BasicLabel10 As AdvancedHMIControls.BasicLabel
     Friend WithEvents BasicLabel9 As AdvancedHMIControls.BasicLabel
     Friend WithEvents BasicLabel8 As AdvancedHMIControls.BasicLabel
-    Friend WithEvents MessageDisplayByBit7 As AdvancedHMIControls.MessageDisplayByBit
-    Friend WithEvents MessageDisplayByBit6 As AdvancedHMIControls.MessageDisplayByBit
-    Friend WithEvents MessageDisplayByBit5 As AdvancedHMIControls.MessageDisplayByBit
-    Friend WithEvents MessageDisplayByBit4 As AdvancedHMIControls.MessageDisplayByBit
-    Friend WithEvents MessageDisplayByBit3 As AdvancedHMIControls.MessageDisplayByBit
-    Friend WithEvents MessageDisplayByBit2 As AdvancedHMIControls.MessageDisplayByBit
-    Friend WithEvents MessageDisplayByBit1 As AdvancedHMIControls.MessageDisplayByBit
     Friend WithEvents BasicLabel17 As AdvancedHMIControls.BasicLabel
     Friend WithEvents BasicLabel18 As AdvancedHMIControls.BasicLabel
     Friend WithEvents BasicLabel15 As AdvancedHMIControls.BasicLabel
@@ -2000,4 +2070,19 @@ Partial Class MainForm
     Friend WithEvents BasicLabel6 As AdvancedHMIControls.BasicLabel
     Friend WithEvents BasicLabel5 As AdvancedHMIControls.BasicLabel
     Friend WithEvents BasicButton26 As AdvancedHMIControls.BasicButton
+    Friend WithEvents PilotLight4 As AdvancedHMIControls.PilotLight
+    Friend WithEvents BasicLabel22 As AdvancedHMIControls.BasicLabel
+    Friend WithEvents BasicLabel21 As AdvancedHMIControls.BasicLabel
+    Friend WithEvents BasicLabel20 As AdvancedHMIControls.BasicLabel
+    Friend WithEvents BasicLabel19 As AdvancedHMIControls.BasicLabel
+    Friend WithEvents BasicLabel4 As AdvancedHMIControls.BasicLabel
+    Friend WithEvents BasicLabel3 As AdvancedHMIControls.BasicLabel
+    Friend WithEvents BasicLabel2 As AdvancedHMIControls.BasicLabel
+    Friend WithEvents BasicLabel1 As AdvancedHMIControls.BasicLabel
+    Friend WithEvents BasicLabel28 As AdvancedHMIControls.BasicLabel
+    Friend WithEvents BasicLabel27 As AdvancedHMIControls.BasicLabel
+    Friend WithEvents BasicLabel26 As AdvancedHMIControls.BasicLabel
+    Friend WithEvents BasicLabel25 As AdvancedHMIControls.BasicLabel
+    Friend WithEvents BasicLabel24 As AdvancedHMIControls.BasicLabel
+    Friend WithEvents BasicLabel23 As AdvancedHMIControls.BasicLabel
 End Class

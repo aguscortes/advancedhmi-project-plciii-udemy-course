@@ -15,11 +15,11 @@
 
     End Sub
 
-    Private Sub BasicLabel2_Click(sender As Object, e As EventArgs) Handles BasicLabel2.Click
+    Private Sub BasicLabel2_Click(sender As Object, e As EventArgs)
 
     End Sub
 
-    Private Sub GroupBox1_Enter(sender As Object, e As EventArgs) Handles GroupBox1.Enter
+    Private Sub GroupBox1_Enter(sender As Object, e As EventArgs)
 
     End Sub
 
@@ -28,6 +28,10 @@
     End Sub
 
     Private Sub PilotLight3_Click(sender As Object, e As EventArgs) Handles PilotLight3.Click
+
+    End Sub
+
+    Private Sub MessageDisplayByBit1_Click(sender As Object, e As EventArgs)
 
     End Sub
 End Class
